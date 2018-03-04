@@ -32,10 +32,10 @@ it('2 items', () => {
 it('2 items, with quantity', () => {
   expect(orderTotal({
     items: [
-      { name: 'toy 1', price: 40, quantity: 3},
+      { name: 'toy 1', price: 40, quantity: 5},
       { name: 'toy 2', price: 100, quantity: 2}
     ]
-  })).toBe((40 * 3) + (100 *2));
+  })).toBe((40 * 5) + (100 *2));
 })
 
 
